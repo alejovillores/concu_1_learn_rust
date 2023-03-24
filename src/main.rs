@@ -1,7 +1,6 @@
 use std::thread;
-
-
 const AMIGOS: i32 = 5;
+
 
 fn main() {
     let  total = 0;

@@ -10,5 +10,9 @@ edition = "2021"
 name = "channels"
 path = "src/bin/example2.rs"
 
+[[bin]]
+name = "ownership"
+path = "src/bin/example3.rs"
+
 
 [dependencies]
