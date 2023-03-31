@@ -80,6 +80,10 @@ fn main() {
             println!("[cliente {} ] - Entro a la barberia", me);
             cliente_esperando_cli.release(); // sumo 1 a los clientes esperando
 
+            /* Si me fijo la sincronizacion tambien aparece aca, porque del 
+               del otro lado, el barbero hace release() para sumar 1 al semaforo
+            */
+
             println!("[cliente {} ] - Esperando al barbero", me);
             barbero_listo_cli.acquire(); // le resto 1 al barbero despierto (como si fuera el ultimo yo)
 
