@@ -20,7 +20,7 @@ path = "src/bin/barbero.rs"
 
 [[bin]]
 name = "fumadores"
-path = "src/bin/fumadore.rs"
+path = "src/bin/fumadores.rs"
 
 
 [dependencies]
